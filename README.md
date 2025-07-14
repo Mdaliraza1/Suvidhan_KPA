@@ -48,54 +48,15 @@ A Django REST Framework project for saving and retrieving wheel and bogie form d
 - **GET** `/api/forms/bogie-checksheets/`  
   List/filter bogie checksheet forms.
 
-#### Example Request/Response
-
-**POST /api/forms/wheel-specifications/**
-```json
-{
-  "formNumber": "WS-001",
-  "submittedBy": "John Doe",
-  "submittedDate": "2024-06-01"
-}
-```
-**Response:**
-```json
-{
-  "success": true,
-  "message": "Wheel specification submitted successfully.",
-  "data": {
-    "formNumber": "WS-001",
-    "submittedBy": "John Doe",
-    "submittedDate": "2024-06-01",
-    "status": "Saved"
-  }
-}
-```
-
-**GET /api/forms/wheel-specifications/?formNumber=WS-001**
-**Response:**
-```json
-{
-  "success": true,
-  "message": "Filtered wheel specification forms fetched successfully.",
-  "data": [
-    {
-      "formNumber": "WS-001",
-      "submittedBy": "John Doe",
-      "submittedDate": "2024-06-01"
-    }
-  ]
-}
-```
 
 ## Postman Collection
-- Import the provided Postman collection (`yourname_postman_collection.json`) into Postman.
+- Import the provided Postman collection (`KPA form data.postman_collection.json`) into Postman.
 - Use the sample requests to test the APIs.
 
 ## Limitations & Assumptions
 - No authentication is implemented (for demo purposes).
 - Only basic validation is performed.
-- API structure follows the provided Swagger/Postman examples.
+
 
 ## Contact
-For any queries, contact: contact@suvidhaen.com 
+For any queries, contact: mdaliraza92@gmail.com 
