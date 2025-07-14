@@ -50,7 +50,7 @@ A Django REST Framework project for saving and retrieving wheel and bogie form d
 
 
 ## Postman Collection
-- Import the provided Postman collection (`KPA form data.postman_collection.json`) into Postman.
+- Import the provided Postman collection (`Md_Ali_Raza_postman_collection.json`) into Postman.
 - Use the sample requests to test the APIs.
 
 ## Limitations & Assumptions
